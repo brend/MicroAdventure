@@ -7,12 +7,19 @@
 //
 
 #import "MAAppDelegate.h"
+#import "GCDirector.h"
+#import "MAMainScene.h"
+#import "GCGameView.h"
 
 @implementation MAAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	[GCGameView class];
+	GCDirector *d = [GCDirector sharedDirector];
+	MAMainScene *s = [[MAMainScene alloc] init];
+	
+	[d pushScene: s];
 }
 
 @end

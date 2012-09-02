@@ -17,6 +17,13 @@
 		5F97C06215F3841900594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
 		5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C06815F3841900594EF4 /* InfoPlist.strings */; };
 		5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */; };
+		5F97C09B15F3897E00594EF4 /* MAMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C09A15F3897E00594EF4 /* MAMainScene.m */; };
+		5F97C09C15F3897E00594EF4 /* MAMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C09A15F3897E00594EF4 /* MAMainScene.m */; };
+		5F97C09E15F389AF00594EF4 /* libGunCase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C09D15F389AF00594EF4 /* libGunCase.a */; };
+		5F97C0A115F389E300594EF4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C09F15F389E300594EF4 /* GLUT.framework */; };
+		5F97C0A215F389E300594EF4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C0A015F389E300594EF4 /* OpenGL.framework */; };
+		5F97C0A515F3924200594EF4 /* bass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C0A415F3924200594EF4 /* bass.png */; };
+		5F97C0A615F3924200594EF4 /* bass.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C0A415F3924200594EF4 /* bass.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,12 @@
 		5F97C06915F3841900594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F97C06B15F3841900594EF4 /* MicroAdventureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroAdventureTests.h; sourceTree = "<group>"; };
 		5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicroAdventureTests.m; sourceTree = "<group>"; };
+		5F97C09915F3897E00594EF4 /* MAMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAMainScene.h; path = Classes/MAMainScene.h; sourceTree = "<group>"; };
+		5F97C09A15F3897E00594EF4 /* MAMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAMainScene.m; path = Classes/MAMainScene.m; sourceTree = "<group>"; };
+		5F97C09D15F389AF00594EF4 /* libGunCase.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGunCase.a; path = ../GunCase/build/Release/libGunCase.a; sourceTree = "<group>"; };
+		5F97C09F15F389E300594EF4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5F97C0A015F389E300594EF4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5F97C0A415F3924200594EF4 /* bass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bass.png; path = MicroAdventure/Resources/bass.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F97C0A115F389E300594EF4 /* GLUT.framework in Frameworks */,
+				5F97C0A215F389E300594EF4 /* OpenGL.framework in Frameworks */,
+				5F97C09E15F389AF00594EF4 /* libGunCase.a in Frameworks */,
 				5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +120,9 @@
 		5F97C04415F3841800594EF4 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F97C09F15F389E300594EF4 /* GLUT.framework */,
+				5F97C0A015F389E300594EF4 /* OpenGL.framework */,
+				5F97C09D15F389AF00594EF4 /* libGunCase.a */,
 				5F97C04515F3841800594EF4 /* AppKit.framework */,
 				5F97C04615F3841800594EF4 /* CoreData.framework */,
 				5F97C04715F3841800594EF4 /* Foundation.framework */,
@@ -114,10 +133,12 @@
 		5F97C04815F3841800594EF4 /* MicroAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				5F97C09815F3895B00594EF4 /* Scenes */,
 				5F97C05415F3841800594EF4 /* MAAppDelegate.h */,
 				5F97C05515F3841800594EF4 /* MAAppDelegate.m */,
 				5F97C05715F3841800594EF4 /* MainMenu.xib */,
 				5F97C04915F3841800594EF4 /* Supporting Files */,
+				5F97C0A315F3922200594EF4 /* Resources */,
 			);
 			path = MicroAdventure;
 			sourceTree = "<group>";
@@ -151,6 +172,24 @@
 				5F97C06815F3841900594EF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F97C09815F3895B00594EF4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C09915F3897E00594EF4 /* MAMainScene.h */,
+				5F97C09A15F3897E00594EF4 /* MAMainScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		5F97C0A315F3922200594EF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C0A415F3924200594EF4 /* bass.png */,
+			);
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +267,7 @@
 				5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */,
 				5F97C05315F3841800594EF4 /* Credits.rtf in Resources */,
 				5F97C05915F3841800594EF4 /* MainMenu.xib in Resources */,
+				5F97C0A515F3924200594EF4 /* bass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */,
+				5F97C0A615F3924200594EF4 /* bass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +305,7 @@
 			files = (
 				5F97C04F15F3841800594EF4 /* main.m in Sources */,
 				5F97C05615F3841800594EF4 /* MAAppDelegate.m in Sources */,
+				5F97C09B15F3897E00594EF4 /* MAMainScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */,
+				5F97C09C15F3897E00594EF4 /* MAMainScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +421,7 @@
 				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
 				INFOPLIST_FILE = "MicroAdventure/MicroAdventure-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../GunCase/GunCase/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,6 +434,7 @@
 				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
 				INFOPLIST_FILE = "MicroAdventure/MicroAdventure-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../GunCase/GunCase/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +488,7 @@
 				5F97C07215F3841900594EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F97C07315F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +497,7 @@
 				5F97C07515F3841900594EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
