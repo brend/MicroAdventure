@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
+		5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C04B15F3841800594EF4 /* InfoPlist.strings */; };
+		5F97C04F15F3841800594EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C04E15F3841800594EF4 /* main.m */; };
+		5F97C05315F3841800594EF4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C05115F3841800594EF4 /* Credits.rtf */; };
+		5F97C05615F3841800594EF4 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C05515F3841800594EF4 /* MAAppDelegate.m */; };
+		5F97C05915F3841800594EF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C05715F3841800594EF4 /* MainMenu.xib */; };
+		5F97C06115F3841900594EF4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C06015F3841900594EF4 /* SenTestingKit.framework */; };
+		5F97C06215F3841900594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
+		5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C06815F3841900594EF4 /* InfoPlist.strings */; };
+		5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F97C06315F3841900594EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F97C03515F3841800594EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F97C03D15F3841800594EF4;
+			remoteInfo = MicroAdventure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F97C03E15F3841800594EF4 /* MicroAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F97C04215F3841800594EF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5F97C04515F3841800594EF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5F97C04615F3841800594EF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5F97C04715F3841800594EF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F97C04A15F3841800594EF4 /* MicroAdventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicroAdventure-Info.plist"; sourceTree = "<group>"; };
+		5F97C04C15F3841800594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F97C04E15F3841800594EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F97C05015F3841800594EF4 /* MicroAdventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicroAdventure-Prefix.pch"; sourceTree = "<group>"; };
+		5F97C05215F3841800594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5F97C05415F3841800594EF4 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		5F97C05515F3841800594EF4 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		5F97C05815F3841800594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F97C05F15F3841900594EF4 /* MicroAdventureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroAdventureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F97C06015F3841900594EF4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F97C06715F3841900594EF4 /* MicroAdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicroAdventureTests-Info.plist"; sourceTree = "<group>"; };
+		5F97C06915F3841900594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F97C06B15F3841900594EF4 /* MicroAdventureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroAdventureTests.h; sourceTree = "<group>"; };
+		5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicroAdventureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F97C03B15F3841800594EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F97C05B15F3841900594EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F97C06115F3841900594EF4 /* SenTestingKit.framework in Frameworks */,
+				5F97C06215F3841900594EF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F97C03315F3841800594EF4 = {
+			isa = PBXGroup;
+			children = (
+				5F97C04815F3841800594EF4 /* MicroAdventure */,
+				5F97C06515F3841900594EF4 /* MicroAdventureTests */,
+				5F97C04115F3841800594EF4 /* Frameworks */,
+				5F97C03F15F3841800594EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F97C03F15F3841800594EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C03E15F3841800594EF4 /* MicroAdventure.app */,
+				5F97C05F15F3841900594EF4 /* MicroAdventureTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F97C04115F3841800594EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C04215F3841800594EF4 /* Cocoa.framework */,
+				5F97C06015F3841900594EF4 /* SenTestingKit.framework */,
+				5F97C04415F3841800594EF4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F97C04415F3841800594EF4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C04515F3841800594EF4 /* AppKit.framework */,
+				5F97C04615F3841800594EF4 /* CoreData.framework */,
+				5F97C04715F3841800594EF4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5F97C04815F3841800594EF4 /* MicroAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C05415F3841800594EF4 /* MAAppDelegate.h */,
+				5F97C05515F3841800594EF4 /* MAAppDelegate.m */,
+				5F97C05715F3841800594EF4 /* MainMenu.xib */,
+				5F97C04915F3841800594EF4 /* Supporting Files */,
+			);
+			path = MicroAdventure;
+			sourceTree = "<group>";
+		};
+		5F97C04915F3841800594EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C04A15F3841800594EF4 /* MicroAdventure-Info.plist */,
+				5F97C04B15F3841800594EF4 /* InfoPlist.strings */,
+				5F97C04E15F3841800594EF4 /* main.m */,
+				5F97C05015F3841800594EF4 /* MicroAdventure-Prefix.pch */,
+				5F97C05115F3841800594EF4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F97C06515F3841900594EF4 /* MicroAdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C06B15F3841900594EF4 /* MicroAdventureTests.h */,
+				5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */,
+				5F97C06615F3841900594EF4 /* Supporting Files */,
+			);
+			path = MicroAdventureTests;
+			sourceTree = "<group>";
+		};
+		5F97C06615F3841900594EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F97C06715F3841900594EF4 /* MicroAdventureTests-Info.plist */,
+				5F97C06815F3841900594EF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F97C03D15F3841800594EF4 /* MicroAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F97C07015F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventure" */;
+			buildPhases = (
+				5F97C03A15F3841800594EF4 /* Sources */,
+				5F97C03B15F3841800594EF4 /* Frameworks */,
+				5F97C03C15F3841800594EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroAdventure;
+			productName = MicroAdventure;
+			productReference = 5F97C03E15F3841800594EF4 /* MicroAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F97C05E15F3841900594EF4 /* MicroAdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F97C07315F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventureTests" */;
+			buildPhases = (
+				5F97C05A15F3841900594EF4 /* Sources */,
+				5F97C05B15F3841900594EF4 /* Frameworks */,
+				5F97C05C15F3841900594EF4 /* Resources */,
+				5F97C05D15F3841900594EF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F97C06415F3841900594EF4 /* PBXTargetDependency */,
+			);
+			name = MicroAdventureTests;
+			productName = MicroAdventureTests;
+			productReference = 5F97C05F15F3841900594EF4 /* MicroAdventureTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F97C03515F3841800594EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Entenwolf Software";
+			};
+			buildConfigurationList = 5F97C03815F3841800594EF4 /* Build configuration list for PBXProject "MicroAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F97C03315F3841800594EF4;
+			productRefGroup = 5F97C03F15F3841800594EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F97C03D15F3841800594EF4 /* MicroAdventure */,
+				5F97C05E15F3841900594EF4 /* MicroAdventureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F97C03C15F3841800594EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */,
+				5F97C05315F3841800594EF4 /* Credits.rtf in Resources */,
+				5F97C05915F3841800594EF4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F97C05C15F3841900594EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F97C05D15F3841900594EF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F97C03A15F3841800594EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F97C04F15F3841800594EF4 /* main.m in Sources */,
+				5F97C05615F3841800594EF4 /* MAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F97C05A15F3841900594EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F97C06415F3841900594EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F97C03D15F3841800594EF4 /* MicroAdventure */;
+			targetProxy = 5F97C06315F3841900594EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F97C04B15F3841800594EF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F97C04C15F3841800594EF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F97C05115F3841800594EF4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F97C05215F3841800594EF4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5F97C05715F3841800594EF4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F97C05815F3841800594EF4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5F97C06815F3841900594EF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F97C06915F3841900594EF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F97C06E15F3841900594EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F97C06F15F3841900594EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F97C07115F3841900594EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
+				INFOPLIST_FILE = "MicroAdventure/MicroAdventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F97C07215F3841900594EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
+				INFOPLIST_FILE = "MicroAdventure/MicroAdventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F97C07415F3841900594EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MicroAdventure.app/Contents/MacOS/MicroAdventure";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
+				INFOPLIST_FILE = "MicroAdventureTests/MicroAdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F97C07515F3841900594EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MicroAdventure.app/Contents/MacOS/MicroAdventure";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
+				INFOPLIST_FILE = "MicroAdventureTests/MicroAdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F97C03815F3841800594EF4 /* Build configuration list for PBXProject "MicroAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F97C06E15F3841900594EF4 /* Debug */,
+				5F97C06F15F3841900594EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F97C07015F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F97C07115F3841900594EF4 /* Debug */,
+				5F97C07215F3841900594EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F97C07315F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F97C07415F3841900594EF4 /* Debug */,
+				5F97C07515F3841900594EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F97C03515F3841800594EF4 /* Project object */;
+}
