@@ -7,10 +7,10 @@
 //
 
 #import "MAMainScene.h"
-#import "GCSpriteActor.h"
+#import "GCTiledMapParser.h"
 
 @interface MAMainScene ()
-@property (nonatomic, strong) GCActor *bass;
+@property (nonatomic, strong) GCMap *map;
 @end
 
 @implementation MAMainScene
@@ -18,14 +18,26 @@
 {
     self = [super init];
     if (self) {
-        self.bass = [[GCSpriteActor alloc] initWithSprite: [GCSprite spriteWithImage: [NSImage imageNamed: @"bass"]]];
+        [self loadMap];
     }
     return self;
 }
 
 - (void) render
 {
-	[self.bass render];
+	[self.map render];
+}
+
+- (void) loadMap
+{
+    NSURL *mapURL = [[NSBundle mainBundle] URLForResource: @"home" withExtension: @"tmx"];
+    GCTiledMapParser *p = [[GCTiledMapParser alloc] initWithURL: mapURL];
+    
+    if ([p parse]) {
+        self.map = p.map;
+    } else {
+        NSLog(@"Parsing failed for %@", mapURL);
+    }
 }
 
 @end
