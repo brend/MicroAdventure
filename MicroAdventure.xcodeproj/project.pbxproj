@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		412F74881604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */; };
 		412F748A1604F0930064CE1C /* home.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 412F74891604F0930064CE1C /* home.tmx */; };
+		4192C76A160E12A30042A1FF /* seito.png in Resources */ = {isa = PBXBuildFile; fileRef = 4192C769160E12A30042A1FF /* seito.png */; };
+		4192C76F160E135F0042A1FF /* MASeito.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C76E160E135F0042A1FF /* MASeito.m */; };
+		4192C770160E135F0042A1FF /* MASeito.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C76E160E135F0042A1FF /* MASeito.m */; };
 		5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
 		5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C04B15F3841800594EF4 /* InfoPlist.strings */; };
 		5F97C04F15F3841800594EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C04E15F3841800594EF4 /* main.m */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rpg indoor tileset expansion 1 trans.png"; path = "MicroAdventure/Resources/rpg indoor tileset expansion 1 trans.png"; sourceTree = "<group>"; };
 		412F74891604F0930064CE1C /* home.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = home.tmx; path = MicroAdventure/Resources/home.tmx; sourceTree = "<group>"; };
+		4192C769160E12A30042A1FF /* seito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seito.png; path = MicroAdventure/Resources/seito.png; sourceTree = "<group>"; };
+		4192C76D160E135F0042A1FF /* MASeito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASeito.h; path = Classes/MASeito.h; sourceTree = "<group>"; };
+		4192C76E160E135F0042A1FF /* MASeito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASeito.m; path = Classes/MASeito.m; sourceTree = "<group>"; };
 		5F97C03E15F3841800594EF4 /* MicroAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F97C04215F3841800594EF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F97C04515F3841800594EF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -89,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4192C76C160E130C0042A1FF /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				4192C76D160E135F0042A1FF /* MASeito.h */,
+				4192C76E160E135F0042A1FF /* MASeito.m */,
+			);
+			name = Actors;
+			sourceTree = "<group>";
+		};
 		5F97C03315F3841800594EF4 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +149,7 @@
 		5F97C04815F3841800594EF4 /* MicroAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				4192C76C160E130C0042A1FF /* Actors */,
 				5F97C09815F3895B00594EF4 /* Scenes */,
 				5F97C05415F3841800594EF4 /* MAAppDelegate.h */,
 				5F97C05515F3841800594EF4 /* MAAppDelegate.m */,
@@ -187,6 +203,7 @@
 		5F97C0A315F3922200594EF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4192C769160E12A30042A1FF /* seito.png */,
 				412F74891604F0930064CE1C /* home.tmx */,
 				412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */,
 			);
@@ -271,6 +288,7 @@
 				5F97C05915F3841800594EF4 /* MainMenu.xib in Resources */,
 				412F74881604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png in Resources */,
 				412F748A1604F0930064CE1C /* home.tmx in Resources */,
+				4192C76A160E12A30042A1FF /* seito.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +326,7 @@
 				5F97C04F15F3841800594EF4 /* main.m in Sources */,
 				5F97C05615F3841800594EF4 /* MAAppDelegate.m in Sources */,
 				5F97C09B15F3897E00594EF4 /* MAMainScene.m in Sources */,
+				4192C76F160E135F0042A1FF /* MASeito.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +336,7 @@
 			files = (
 				5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */,
 				5F97C09C15F3897E00594EF4 /* MAMainScene.m in Sources */,
+				4192C770160E135F0042A1FF /* MASeito.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

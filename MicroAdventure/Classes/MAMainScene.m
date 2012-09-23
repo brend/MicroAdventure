@@ -8,9 +8,11 @@
 
 #import "MAMainScene.h"
 #import "GCTiledMapParser.h"
+#import "MASeito.h"
 
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
+@property (nonatomic, strong) MASeito *seito;
 @end
 
 @implementation MAMainScene
@@ -19,6 +21,7 @@
     self = [super init];
     if (self) {
         [self loadMap];
+        [self loadSeito];
     }
     return self;
 }
@@ -26,6 +29,7 @@
 - (void) render
 {
 	[self.map render];
+    [self.seito render];
 }
 
 - (void) loadMap
@@ -38,6 +42,11 @@
     } else {
         NSLog(@"Parsing failed for %@", mapURL);
     }
+}
+
+- (void) loadSeito
+{
+    self.seito = [[MASeito alloc] init];
 }
 
 @end
