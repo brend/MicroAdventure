@@ -45,7 +45,7 @@
 		4192C769160E12A30042A1FF /* seito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seito.png; path = MicroAdventure/Resources/seito.png; sourceTree = "<group>"; };
 		4192C76D160E135F0042A1FF /* MASeito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASeito.h; path = Classes/MASeito.h; sourceTree = "<group>"; };
 		4192C76E160E135F0042A1FF /* MASeito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASeito.m; path = Classes/MASeito.m; sourceTree = "<group>"; };
-		41FC27F21643CEEF00EC19BC /* Mission Statement.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Mission Statement.markdown"; sourceTree = "<group>"; };
+		41FC27F21643CEEF00EC19BC /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		5F97C03E15F3841800594EF4 /* MicroAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F97C04215F3841800594EF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F97C04515F3841800594EF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -169,7 +169,7 @@
 				5F97C04E15F3841800594EF4 /* main.m */,
 				5F97C05015F3841800594EF4 /* MicroAdventure-Prefix.pch */,
 				5F97C05115F3841800594EF4 /* Credits.rtf */,
-				41FC27F21643CEEF00EC19BC /* Mission Statement.markdown */,
+				41FC27F21643CEEF00EC19BC /* README.markdown */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
