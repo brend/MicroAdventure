@@ -8,13 +8,21 @@ Basics:
 
  - There is a room, comprised of individual tiles.
    The room fits on the screen entirely; no need
-   for scrolling.
- - There is a man in the room, Seito-san.
+   for scrolling. 
+   *Accomplished!*
+ - There is a man in the room, Seito-san. 
+   *Accomplished!*
  - Seito-san can move in the four cardinal directions,
-   from tile to tile.
- - While moving, he displays a walking animation.
+   from tile to tile. 
+   *Accomplished!*
+ - While moving, he displays a walking animation. 
+   *Accomplished!*
  - Certain tiles are walkable, others are not. 
    Seito-san can only walk on the "floor", not on "walls".
+   *Accomplished!*
+ - The tiles and Seito-san are displayed in a way
+   creating the illusion of depth, i.e. if he walks
+   behind a wall, Seito-san will be obscured by it.
 
 Advanced:
 
