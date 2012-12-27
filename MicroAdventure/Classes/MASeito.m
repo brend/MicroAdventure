@@ -12,6 +12,8 @@
 @interface MASeito ()
 @property (nonatomic, copy) NSArray *sprites;
 @property (nonatomic) GCAnimation *movement;
+@property (nonatomic) float animationProgress;
+@property (nonatomic, copy) NSArray *animationCells;
 @end
 
 @implementation MASeito
@@ -37,18 +39,15 @@
                                            rows: 4];
     
     self.sprites = sheet;
+    self.animationCells = sheet;
 }
 
 - (void) render
 {
-    static float index = 0;
-    
-    if (self.movement) {
-        self.sprite = [self.sprites objectAtIndex: ((NSInteger) index) % self.sprites.count];
-        
-        index += 0.1;
-    } else {
-        self.sprite = [self.sprites objectAtIndex: 0];
+    self.sprite = [self.animationCells objectAtIndex: ((NSInteger) self.animationProgress) % self.animationCells.count];
+
+    if (self.movement) {        
+        self.animationProgress += 0.1;
     }
     
     [super render];
@@ -59,10 +58,30 @@
     if (self.movement)
         return;
     
+    // Create movement animation
     GCVector *target = [self.position add: offset];
     GCLinearAnimation *a = [GCLinearAnimation animationFrom: self.position to: target duration: 0.15];
     
     self.movement = a;
+    
+    // Get movement animation cells
+    NSRange cellRange = NSMakeRange(0, 0);
+    
+    
+    if (offset.y > 0) {
+        cellRange = NSMakeRange(0, 3);
+    }
+    if (offset.x > 0) {
+        cellRange = NSMakeRange(3, 3);
+    }
+    if (offset.y < 0) {
+        cellRange = NSMakeRange(6, 3);
+    }
+    if (offset.x < 0) {
+        cellRange = NSMakeRange(9, 3);
+    }
+
+    self.animationCells = [self.sprites subarrayWithRange: cellRange];
 }
 
 - (BOOL) isMoving
