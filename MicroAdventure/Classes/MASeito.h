@@ -6,8 +6,11 @@
 //  Copyright (c) 2012 Entenwolf Software. All rights reserved.
 //
 
-#import "GCActor.h"
+#import "GCSpriteActor.h"
 
-@interface MASeito : GCActor
+@interface MASeito : GCSpriteActor
+
+- (void) move: (GCVector *) offset;
+@property (readonly) BOOL isMoving;
 
 @end

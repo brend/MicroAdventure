@@ -7,10 +7,11 @@
 //
 
 #import "MASeito.h"
-#import "GCSprite.h"
+#import "GunCase.h"
 
 @interface MASeito ()
 @property (nonatomic, copy) NSArray *sprites;
+@property (nonatomic) GCAnimation *movement;
 @end
 
 @implementation MASeito
@@ -19,6 +20,8 @@
 {
     self = [super init];
     if (self) {
+        self.position = [GCVector vectorWithX: 2 * 16 y: 2 * 16];
+        self.drawingOffset = [GCVector vectorWithX: 0 y: 24];
         [self loadSprites];
     }
     return self;
@@ -40,9 +43,39 @@
 {
     static float index = 0;
     
-    [[self.sprites objectAtIndex: ((NSInteger) index) % self.sprites.count] drawAtX: 0 y: 0];
+    if (self.movement) {
+        self.sprite = [self.sprites objectAtIndex: ((NSInteger) index) % self.sprites.count];
+        
+        index += 0.1;
+    } else {
+        self.sprite = [self.sprites objectAtIndex: 0];
+    }
     
-    index += 0.1;
+    [super render];
+}
+
+- (void) move: (GCVector *) offset
+{
+    if (self.movement)
+        return;
+    
+    GCVector *target = [self.position add: offset];
+    GCLinearAnimation *a = [GCLinearAnimation animationFrom: self.position to: target duration: 0.15];
+    
+    self.movement = a;
+}
+
+- (BOOL) isMoving
+{
+    return self.movement != nil;
+}
+
+- (void) update
+{
+    [super update];
+    [self.movement advance: self];
+    if (self.movement.isFinished)
+        self.movement = nil;
 }
 
 @end

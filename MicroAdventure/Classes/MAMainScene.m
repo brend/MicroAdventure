@@ -8,7 +8,10 @@
 
 #import "MAMainScene.h"
 #import "GCTiledMapParser.h"
+#import "GCKeyboardKeys.h"
 #import "MASeito.h"
+
+#define MATileSize  16.0
 
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
@@ -47,6 +50,45 @@
 - (void) loadSeito
 {
     self.seito = [[MASeito alloc] init];
+}
+
+- (void) update
+{
+    if (!self.seito.isMoving) {
+        
+        GCVector *offset = nil;
+        
+        if ([self.keyboard keyPressed: GCKeyboardKeyLeft]) {
+            offset = [GCVector vectorWithX: -MATileSize y: 0];
+        }
+        
+        if ([self.keyboard keyPressed: GCKeyboardKeyRight]) {
+            offset = [GCVector vectorWithX: MATileSize y: 0];
+        }
+        
+        if ([self.keyboard keyPressed: GCKeyboardKeyDown]) {
+            offset = [GCVector vectorWithX: 0 y: -MATileSize];
+        }
+        
+        if ([self.keyboard keyPressed: GCKeyboardKeyUp]) {
+            offset = [GCVector vectorWithX: 0 y: MATileSize];
+        }
+        
+        if (offset && [self tileIsWalkable: [self.seito.position add: offset]]) {
+            [self.seito move: offset];
+        }
+    }
+    
+    [self.seito update];
+}
+
+- (BOOL) tileIsWalkable: (GCVector *) position
+{
+    NSInteger x = roundtol(position.x / MATileSize), y = roundtol(position.y / MATileSize);
+    GCMapLayer *unwalkableLayer = [self.map layerNamed: @"Unwalkable"];
+    GCMapTile *tile = [unwalkableLayer tileAtX: x y: y];
+    
+    return tile.isEmpty;
 }
 
 @end
