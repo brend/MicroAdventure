@@ -11,6 +11,7 @@
 #import "GCKeyboardKeys.h"
 #import "MASeito.h"
 #import "MACerealDesire.h"
+#import "MABowlDesire.h"
 
 #define MATileSize  16.0
 
@@ -62,8 +63,7 @@
 {
     NSArray *someDesires = [NSArray arrayWithObjects:
                             [[MACerealDesire alloc] init],
-                            [[MACerealDesire alloc] init],
-                            [[MACerealDesire alloc] init],
+                            [[MABowlDesire alloc] init],
                             nil];
     NSMutableArray *a = [NSMutableArray array];
     

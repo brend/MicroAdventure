@@ -11,6 +11,8 @@
 		4118E21C16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4118E21A16AC37FC00BDFCE5 /* MACerealDesire.m */; };
 		4127B5A816A1FE8900B54716 /* MADesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4127B5A716A1FE8900B54716 /* MADesire.m */; };
 		4127B5A916A1FE8900B54716 /* MADesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4127B5A716A1FE8900B54716 /* MADesire.m */; };
+		412C5A5F16AC5FDB00FE1CCE /* MABowlDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */; };
+		412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */; };
 		412F74881604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */; };
 		412F748A1604F0930064CE1C /* home.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 412F74891604F0930064CE1C /* home.tmx */; };
 		41515E3816A2B4FB00F0DC46 /* MADesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3716A2B4FB00F0DC46 /* MADesireState.m */; };
@@ -63,6 +65,8 @@
 		4118E21A16AC37FC00BDFCE5 /* MACerealDesire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACerealDesire.m; path = Classes/MACerealDesire.m; sourceTree = "<group>"; };
 		4127B5A616A1FE8900B54716 /* MADesire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADesire.h; path = Classes/MADesire.h; sourceTree = "<group>"; };
 		4127B5A716A1FE8900B54716 /* MADesire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADesire.m; path = Classes/MADesire.m; sourceTree = "<group>"; };
+		412C5A5D16AC5FDB00FE1CCE /* MABowlDesire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MABowlDesire.h; path = Classes/MABowlDesire.h; sourceTree = "<group>"; };
+		412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MABowlDesire.m; path = Classes/MABowlDesire.m; sourceTree = "<group>"; };
 		412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rpg indoor tileset expansion 1 trans.png"; path = "MicroAdventure/Resources/rpg indoor tileset expansion 1 trans.png"; sourceTree = "<group>"; };
 		412F74891604F0930064CE1C /* home.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = home.tmx; path = MicroAdventure/Resources/home.tmx; sourceTree = "<group>"; };
 		41515E3616A2B4FB00F0DC46 /* MADesireState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADesireState.h; path = Classes/MADesireState.h; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				4127B5A716A1FE8900B54716 /* MADesire.m */,
 				4118E21916AC37FC00BDFCE5 /* MACerealDesire.h */,
 				4118E21A16AC37FC00BDFCE5 /* MACerealDesire.m */,
+				412C5A5D16AC5FDB00FE1CCE /* MABowlDesire.h */,
+				412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */,
 				41515E3616A2B4FB00F0DC46 /* MADesireState.h */,
 				41515E3716A2B4FB00F0DC46 /* MADesireState.m */,
 				41515E3A16A2B51600F0DC46 /* MAUnfulfilledDesireState.h */,
@@ -400,6 +406,7 @@
 				41515E3C16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */,
 				41515E4016A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
 				4118E21B16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
+				412C5A5F16AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +422,7 @@
 				41515E3D16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */,
 				41515E4116A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
 				4118E21C16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
+				412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
