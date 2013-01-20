@@ -10,12 +10,14 @@
 #import "GCTiledMapParser.h"
 #import "GCKeyboardKeys.h"
 #import "MASeito.h"
+#import "MACerealDesire.h"
 
 #define MATileSize  16.0
 
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
 @property (nonatomic, strong) MASeito *seito;
+@property (nonatomic, copy) NSArray *desires;
 @end
 
 @implementation MAMainScene
@@ -25,6 +27,7 @@
     if (self) {
         [self loadMap];
         [self loadSeito];
+        [self loadDesires];
     }
     return self;
 }
@@ -33,6 +36,9 @@
 {
 	[self.map render];
     [self.seito render];
+    for (MADesire *d in self.desires) {
+        [d render];
+    }
 }
 
 - (void) loadMap
@@ -50,6 +56,28 @@
 - (void) loadSeito
 {
     self.seito = [[MASeito alloc] init];
+}
+
+- (void) loadDesires
+{
+    NSArray *someDesires = [NSArray arrayWithObjects:
+                            [[MACerealDesire alloc] init],
+                            [[MACerealDesire alloc] init],
+                            [[MACerealDesire alloc] init],
+                            nil];
+    NSMutableArray *a = [NSMutableArray array];
+    
+    for (NSInteger i = 0; i < someDesires.count; ++i) {
+        MADesire *d = [someDesires objectAtIndex: i];
+  
+        d.scene = self;
+        d.position = [GCVector vectorWithX: (self.map.width + 1) * MATileSize
+                                         y: (self.map.height - i * 1.5 * 2) * MATileSize];
+        
+        [a addObject: d];
+    }
+    
+    self.desires = a;
 }
 
 - (void) update
@@ -80,6 +108,10 @@
     }
     
     [self.seito update];
+    
+    for (MADesire *d in self.desires) {
+        [d update];
+    }
 }
 
 - (BOOL) tileIsWalkable: (GCVector *) position
