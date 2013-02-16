@@ -27,7 +27,7 @@
 
 - (BOOL) conditionsMet
 {
-    return [[self.scene keyboard] keyPressed: 7];
+    return NO;
 }
 
 @end

@@ -9,15 +9,11 @@
 #import "MAMainScene.h"
 #import "GCTiledMapParser.h"
 #import "GCKeyboardKeys.h"
-#import "MASeito.h"
 #import "MACerealDesire.h"
 #import "MABowlDesire.h"
 
-#define MATileSize  16.0
-
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
-@property (nonatomic, strong) MASeito *seito;
 @property (nonatomic, copy) NSArray *desires;
 @end
 

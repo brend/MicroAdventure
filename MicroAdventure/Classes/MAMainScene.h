@@ -7,7 +7,10 @@
 //
 
 #import "GCScene.h"
+#import "MASeito.h"
+
+#define MATileSize  16.0
 
 @interface MAMainScene : GCScene
-
+@property (nonatomic, strong) MASeito *seito;
 @end
