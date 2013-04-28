@@ -22,8 +22,8 @@
 {
     self = [super init];
     if (self) {
-        [self loadMap];
         [self loadSeito];
+        [self loadMap];
         [self loadDesires];
     }
     return self;
@@ -32,7 +32,6 @@
 - (void) render
 {
 	[self.map render];
-    [self.seito render];
     for (MADesire *d in self.desires) {
         [d render];
     }
@@ -45,6 +44,11 @@
     
     if ([p parse]) {
         self.map = p.map;
+		
+		GCMapLayer *seitoLayer = [self.map layerNamed: @"Seito"];
+		
+		[seitoLayer addComponent: self.seito];
+		
     } else {
         NSLog(@"Parsing failed for %@", mapURL);
     }
