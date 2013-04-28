@@ -33,6 +33,7 @@
 		41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */; };
 		41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
 		41FBFC8016AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
+		5F1DF98A172D3EEF00933BA5 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F1DF989172D3EEF00933BA5 /* AppIcon.icns */; };
 		5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
 		5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C04B15F3841800594EF4 /* InfoPlist.strings */; };
 		5F97C04F15F3841800594EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C04E15F3841800594EF4 /* main.m */; };
@@ -84,6 +85,7 @@
 		41EA557B16A2E94700AE84D5 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame.png; path = MicroAdventure/Resources/frame.png; sourceTree = "<group>"; };
 		41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl_fulfilled.png; path = MicroAdventure/Resources/bowl_fulfilled.png; sourceTree = "<group>"; };
 		41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl_unfulfilled.png; path = MicroAdventure/Resources/bowl_unfulfilled.png; sourceTree = "<group>"; };
+		5F1DF989172D3EEF00933BA5 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		5F97C03E15F3841800594EF4 /* MicroAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F97C04215F3841800594EF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F97C04515F3841800594EF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -165,6 +167,7 @@
 		5F97C03315F3841800594EF4 = {
 			isa = PBXGroup;
 			children = (
+				5F1DF989172D3EEF00933BA5 /* AppIcon.icns */,
 				5F97C04815F3841800594EF4 /* MicroAdventure */,
 				5F97C06515F3841900594EF4 /* MicroAdventureTests */,
 				5F97C04115F3841800594EF4 /* Frameworks */,
@@ -359,6 +362,7 @@
 				41EA557C16A2E94700AE84D5 /* frame.png in Resources */,
 				41FBFC7D16AC11A60083A567 /* bowl_fulfilled.png in Resources */,
 				41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */,
+				5F1DF98A172D3EEF00933BA5 /* AppIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
