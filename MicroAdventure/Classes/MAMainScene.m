@@ -9,8 +9,12 @@
 #import "MAMainScene.h"
 #import "GCTiledMapParser.h"
 #import "GCKeyboardKeys.h"
+
 #import "MACerealDesire.h"
 #import "MABowlDesire.h"
+
+#import "GCDirector.h"
+#import "MACerealMazeScene.h"
 
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
@@ -31,6 +35,7 @@
 
 - (void) render
 {
+	[super render];
 	[self.map render];
     for (MADesire *d in self.desires) {
         [d render];
@@ -82,7 +87,10 @@
 
 - (void) update
 {
-    if (!self.seito.isMoving) {
+	// DEBUG
+	self.position = [self.position add: [GCVector vectorWithX: rand() % 8 - 4 y: rand() % 8 - 4]];
+	
+	if (!self.seito.isMoving) {
         
         GCVector *offset = nil;
         
@@ -121,6 +129,15 @@
     GCMapTile *tile = [unwalkableLayer tileAtX: x y: y];
     
     return tile.isEmpty;
+}
+
+#pragma mark -
+#pragma mark Desire Interaction
+- (void) presentCerealMaze
+{
+	MACerealMazeScene *maze = [[MACerealMazeScene alloc] init];
+	
+	[[GCDirector sharedDirector] pushScene: maze];
 }
 
 @end

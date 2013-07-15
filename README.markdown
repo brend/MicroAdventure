@@ -32,7 +32,7 @@ Advanced:
     * a spoon
     * milk
     * and, of course, a box of his favorite cereal,
-      Kaeru-Os
+      Ohay-Os
    It should be indicated that he wants to eat cereal
    and needs these ingredients, either through narration,
    on-screen icons, or any other way.

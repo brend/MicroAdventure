@@ -10,4 +10,6 @@
 
 @interface MACerealDesire : MADesire
 
+@property BOOL puzzleSolved;
+
 @end

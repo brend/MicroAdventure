@@ -33,7 +33,12 @@
 		41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */; };
 		41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
 		41FBFC8016AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
+		5F15B5AE17771F2D002D79D8 /* MACerealMazeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */; };
+		5F15B5AF17771F2D002D79D8 /* MACerealMazeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */; };
+		5F15B5B317802BAB002D79D8 /* puzzle_maze.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F15B5B217802BAB002D79D8 /* puzzle_maze.png */; };
+		5F15B5B417802BAB002D79D8 /* puzzle_maze.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F15B5B217802BAB002D79D8 /* puzzle_maze.png */; };
 		5F1DF98A172D3EEF00933BA5 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F1DF989172D3EEF00933BA5 /* AppIcon.icns */; };
+		5F3AD4B81794018500577C09 /* puzzle_maze_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AD4B71794018500577C09 /* puzzle_maze_marker.png */; };
 		5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
 		5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C04B15F3841800594EF4 /* InfoPlist.strings */; };
 		5F97C04F15F3841800594EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C04E15F3841800594EF4 /* main.m */; };
@@ -85,7 +90,11 @@
 		41EA557B16A2E94700AE84D5 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame.png; path = MicroAdventure/Resources/frame.png; sourceTree = "<group>"; };
 		41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl_fulfilled.png; path = MicroAdventure/Resources/bowl_fulfilled.png; sourceTree = "<group>"; };
 		41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl_unfulfilled.png; path = MicroAdventure/Resources/bowl_unfulfilled.png; sourceTree = "<group>"; };
+		5F15B5AC17771F2D002D79D8 /* MACerealMazeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACerealMazeScene.h; path = Classes/MACerealMazeScene.h; sourceTree = "<group>"; };
+		5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACerealMazeScene.m; path = Classes/MACerealMazeScene.m; sourceTree = "<group>"; };
+		5F15B5B217802BAB002D79D8 /* puzzle_maze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = puzzle_maze.png; path = MicroAdventure/Resources/puzzle_maze.png; sourceTree = "<group>"; };
 		5F1DF989172D3EEF00933BA5 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		5F3AD4B71794018500577C09 /* puzzle_maze_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = puzzle_maze_marker.png; path = MicroAdventure/Resources/puzzle_maze_marker.png; sourceTree = "<group>"; };
 		5F97C03E15F3841800594EF4 /* MicroAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F97C04215F3841800594EF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5F97C04515F3841800594EF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -259,6 +268,8 @@
 			children = (
 				5F97C09915F3897E00594EF4 /* MAMainScene.h */,
 				5F97C09A15F3897E00594EF4 /* MAMainScene.m */,
+				5F15B5AC17771F2D002D79D8 /* MACerealMazeScene.h */,
+				5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -266,6 +277,8 @@
 		5F97C0A315F3922200594EF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5F3AD4B71794018500577C09 /* puzzle_maze_marker.png */,
+				5F15B5B217802BAB002D79D8 /* puzzle_maze.png */,
 				41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */,
 				41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */,
 				41EA557B16A2E94700AE84D5 /* frame.png */,
@@ -363,6 +376,8 @@
 				41FBFC7D16AC11A60083A567 /* bowl_fulfilled.png in Resources */,
 				41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */,
 				5F1DF98A172D3EEF00933BA5 /* AppIcon.icns in Resources */,
+				5F15B5B317802BAB002D79D8 /* puzzle_maze.png in Resources */,
+				5F3AD4B81794018500577C09 /* puzzle_maze_marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +390,7 @@
 				41515E4716A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */,
 				41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */,
 				41FBFC8016AC11A60083A567 /* bowl_unfulfilled.png in Resources */,
+				5F15B5B417802BAB002D79D8 /* puzzle_maze.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				41515E4016A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
 				4118E21B16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
 				412C5A5F16AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
+				5F15B5AE17771F2D002D79D8 /* MACerealMazeScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +444,7 @@
 				41515E4116A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
 				4118E21C16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
 				412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
+				5F15B5AF17771F2D002D79D8 /* MACerealMazeScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

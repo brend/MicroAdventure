@@ -13,4 +13,6 @@
 
 @interface MAMainScene : GCScene
 @property (nonatomic, strong) MASeito *seito;
+
+- (void) presentCerealMaze;
 @end

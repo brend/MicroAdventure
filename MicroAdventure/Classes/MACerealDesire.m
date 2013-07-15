@@ -9,6 +9,12 @@
 #import "MACerealDesire.h"
 
 #import "GunCase.h"
+#import "MAMainScene.h"
+
+@interface MACerealDesire ()
+@property BOOL cerealMazePresented;
+@property (strong, nonatomic) NSArray *cerealAccessPositions;
+@end
 
 @implementation MACerealDesire
 
@@ -21,13 +27,28 @@
         self.icon = self.unfulfilledIcon;
         
         [self addComponent: self.icon];
+		
+		self.cerealAccessPositions = [NSArray arrayWithObjects:
+                                        [GCVector vectorWithX: 4 * MATileSize y: 6 * MATileSize],
+                                        [GCVector vectorWithX: 5 * MATileSize y: 6 * MATileSize],
+                                        nil];
     }
     return self;
 }
 
 - (BOOL) conditionsMet
 {
-    return NO;
+	static unichar key_x = 7;
+    
+	if ([[self.scene keyboard] keyPressed: key_x]
+        && [self.cerealAccessPositions containsObject: [self.scene seito].position.round]
+		&& !self.cerealMazePresented)
+	{
+		self.cerealMazePresented = YES;
+		[self.scene presentCerealMaze];
+	}
+	
+    return self.puzzleSolved;
 }
 
 @end
