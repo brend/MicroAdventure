@@ -87,9 +87,6 @@
 
 - (void) update
 {
-	// DEBUG
-	self.position = [self.position add: [GCVector vectorWithX: rand() % 8 - 4 y: rand() % 8 - 4]];
-	
 	if (!self.seito.isMoving) {
         
         GCVector *offset = nil;
