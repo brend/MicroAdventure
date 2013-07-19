@@ -29,13 +29,16 @@
         [self loadSeito];
         [self loadMap];
         [self loadDesires];
+		
+		// Center the scene
+		self.position = [GCVector vectorWithX: (float)self.map.width * MATileSize / -2.0
+											y: (float)self.map.height * MATileSize / -2.0];
     }
     return self;
 }
 
-- (void) render
+- (void) renderIndividually
 {
-	[super render];
 	[self.map render];
     for (MADesire *d in self.desires) {
         [d render];
