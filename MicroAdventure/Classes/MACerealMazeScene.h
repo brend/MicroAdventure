@@ -10,4 +10,6 @@
 
 @interface MACerealMazeScene : GCScene
 
+@property (nonatomic, assign) id delegate;
+
 @end

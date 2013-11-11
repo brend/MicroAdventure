@@ -15,4 +15,6 @@
 @property (nonatomic, strong) MASeito *seito;
 
 - (void) presentCerealMaze;
+// - (void) setPuzzleSolved: (BOOL) flag;
+@property (nonatomic) BOOL puzzleSolved;
 @end

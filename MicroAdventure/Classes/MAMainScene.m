@@ -136,6 +136,8 @@
 - (void) presentCerealMaze
 {
 	MACerealMazeScene *maze = [[MACerealMazeScene alloc] init];
+    
+    maze.delegate = self;
 	
 	[[GCDirector sharedDirector] pushScene: maze];
 }

@@ -7,6 +7,7 @@
 //
 
 #import "MACerealMazeScene.h"
+#import "MAMainScene.h"
 #import "GunCase.h"
 
 @interface MACerealMazeScene ()
@@ -70,8 +71,17 @@
     if (self.markerAnimation) {
         [self.markerAnimation advance: self.marker];
         
-        if (self.markerAnimation.isFinished)
+        if (self.markerAnimation.isFinished) {
             self.markerAnimation = nil;
+            
+            // If the goal has been reached, close this scene
+            if ((int)self.markerGridPosition.x == 1
+                && (int) self.markerGridPosition.y == 6)
+            {
+                [self.delegate setPuzzleSolved: YES];
+                [[GCDirector sharedDirector] popScene];
+            }
+        }
     } else {
         NSPoint offset = NSZeroPoint;
         

@@ -47,8 +47,10 @@
 		self.cerealMazePresented = YES;
 		[self.scene presentCerealMaze];
 	}
-	
-    return self.puzzleSolved;
+    
+    BOOL puzzleSolved = [self.scene puzzleSolved];
+    
+    return puzzleSolved;
 }
 
 @end
