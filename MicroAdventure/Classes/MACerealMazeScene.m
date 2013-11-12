@@ -30,6 +30,7 @@
 		
 		GCVector *startLocation = [GCVector vectorWithX: 0 y: -512];
 		
+        self.position = startLocation;
 		self.animation =
 			[GCLinearAnimation animationFrom: startLocation
 										  to: [GCVector zero]
@@ -38,7 +39,6 @@
         self.path = [[GCStack alloc] init];
         self.backtrack = [[GCStack alloc] init];
         
-        // self.marker.position = [GCVector vectorWithX: 8 y: 8];
         self.markerGridPosition = NSMakePoint(5, 0);
         
         [self loadPath];
