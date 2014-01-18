@@ -28,7 +28,11 @@
 		4192C76A160E12A30042A1FF /* seito.png in Resources */ = {isa = PBXBuildFile; fileRef = 4192C769160E12A30042A1FF /* seito.png */; };
 		4192C76F160E135F0042A1FF /* MASeito.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C76E160E135F0042A1FF /* MASeito.m */; };
 		4192C770160E135F0042A1FF /* MASeito.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C76E160E135F0042A1FF /* MASeito.m */; };
+		419FBBF918323ACC00EE8A10 /* MAVictoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */; };
+		419FBBFA18323ACC00EE8A10 /* MAVictoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */; };
 		41EA557C16A2E94700AE84D5 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EA557B16A2E94700AE84D5 /* frame.png */; };
+		41ECBB0518685A5700667538 /* splash_victory.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBB0418685A5700667538 /* splash_victory.png */; };
+		41ECBB0618685A5700667538 /* splash_victory.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBB0418685A5700667538 /* splash_victory.png */; };
 		41FBFC7D16AC11A60083A567 /* bowl_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */; };
 		41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */; };
 		41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
@@ -86,8 +90,11 @@
 		4192C769160E12A30042A1FF /* seito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seito.png; path = MicroAdventure/Resources/seito.png; sourceTree = "<group>"; };
 		4192C76D160E135F0042A1FF /* MASeito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASeito.h; path = Classes/MASeito.h; sourceTree = "<group>"; };
 		4192C76E160E135F0042A1FF /* MASeito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASeito.m; path = Classes/MASeito.m; sourceTree = "<group>"; };
+		419FBBF718323ACC00EE8A10 /* MAVictoryScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAVictoryScene.h; path = Classes/MAVictoryScene.h; sourceTree = "<group>"; };
+		419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAVictoryScene.m; path = Classes/MAVictoryScene.m; sourceTree = "<group>"; };
 		41C016231645AD8900FAF783 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
 		41EA557B16A2E94700AE84D5 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame.png; path = MicroAdventure/Resources/frame.png; sourceTree = "<group>"; };
+		41ECBB0418685A5700667538 /* splash_victory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_victory.png; path = MicroAdventure/Resources/splash_victory.png; sourceTree = "<group>"; };
 		41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl_fulfilled.png; path = MicroAdventure/Resources/bowl_fulfilled.png; sourceTree = "<group>"; };
 		41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl_unfulfilled.png; path = MicroAdventure/Resources/bowl_unfulfilled.png; sourceTree = "<group>"; };
 		5F15B5AC17771F2D002D79D8 /* MACerealMazeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACerealMazeScene.h; path = Classes/MACerealMazeScene.h; sourceTree = "<group>"; };
@@ -270,6 +277,8 @@
 				5F97C09A15F3897E00594EF4 /* MAMainScene.m */,
 				5F15B5AC17771F2D002D79D8 /* MACerealMazeScene.h */,
 				5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */,
+				419FBBF718323ACC00EE8A10 /* MAVictoryScene.h */,
+				419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -277,6 +286,7 @@
 		5F97C0A315F3922200594EF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				41ECBB0418685A5700667538 /* splash_victory.png */,
 				5F3AD4B71794018500577C09 /* puzzle_maze_marker.png */,
 				5F15B5B217802BAB002D79D8 /* puzzle_maze.png */,
 				41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */,
@@ -372,6 +382,7 @@
 				4192C76A160E12A30042A1FF /* seito.png in Resources */,
 				41515E4416A2BA9600F0DC46 /* cereal_fulfilled.png in Resources */,
 				41515E4616A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */,
+				41ECBB0518685A5700667538 /* splash_victory.png in Resources */,
 				41EA557C16A2E94700AE84D5 /* frame.png in Resources */,
 				41FBFC7D16AC11A60083A567 /* bowl_fulfilled.png in Resources */,
 				41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */,
@@ -386,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */,
+				41ECBB0618685A5700667538 /* splash_victory.png in Resources */,
 				41515E4516A2BA9600F0DC46 /* cereal_fulfilled.png in Resources */,
 				41515E4716A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */,
 				41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */,
@@ -420,6 +432,7 @@
 				5F97C04F15F3841800594EF4 /* main.m in Sources */,
 				5F97C05615F3841800594EF4 /* MAAppDelegate.m in Sources */,
 				5F97C09B15F3897E00594EF4 /* MAMainScene.m in Sources */,
+				419FBBF918323ACC00EE8A10 /* MAVictoryScene.m in Sources */,
 				4192C76F160E135F0042A1FF /* MASeito.m in Sources */,
 				4127B5A816A1FE8900B54716 /* MADesire.m in Sources */,
 				41515E3816A2B4FB00F0DC46 /* MADesireState.m in Sources */,
@@ -438,6 +451,7 @@
 				5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */,
 				5F97C09C15F3897E00594EF4 /* MAMainScene.m in Sources */,
 				4192C770160E135F0042A1FF /* MASeito.m in Sources */,
+				419FBBFA18323ACC00EE8A10 /* MAVictoryScene.m in Sources */,
 				4127B5A916A1FE8900B54716 /* MADesire.m in Sources */,
 				41515E3916A2B4FB00F0DC46 /* MADesireState.m in Sources */,
 				41515E3D16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */,

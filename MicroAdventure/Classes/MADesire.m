@@ -63,6 +63,8 @@
     
     // Start animation
     self.animationActive = YES;
+    
+    self.fulfilled = YES;
 }
 
 - (BOOL) conditionsMet

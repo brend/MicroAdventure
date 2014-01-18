@@ -15,6 +15,7 @@
 
 #import "GCDirector.h"
 #import "MACerealMazeScene.h"
+#import "MAVictoryScene.h"
 
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
@@ -117,8 +118,18 @@
     
     [self.seito update];
     
+    // Update desires
+    BOOL allDesiresFulfilled = YES;
+    
     for (MADesire *d in self.desires) {
         [d update];
+        
+        allDesiresFulfilled &= d.fulfilled;
+    }
+    
+    // Display victory scene if all desired fulfilled
+    if (allDesiresFulfilled) {
+        [self presentVictoryScene];
     }
 }
 
@@ -132,7 +143,7 @@
 }
 
 #pragma mark -
-#pragma mark Desire Interaction
+#pragma mark Presenting Other Scenes
 - (void) presentCerealMaze
 {
 	MACerealMazeScene *maze = [[MACerealMazeScene alloc] init];
@@ -140,6 +151,13 @@
     maze.delegate = self;
 	
 	[[GCDirector sharedDirector] pushScene: maze];
+}
+
+- (void) presentVictoryScene
+{
+    MAVictoryScene *v = [[MAVictoryScene alloc] init];
+    
+    [[GCDirector sharedDirector] pushScene: v];
 }
 
 @end

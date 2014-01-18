@@ -16,6 +16,7 @@
 @property (nonatomic, strong) id scene;
 
 - (void) fulfill;
+@property (nonatomic) BOOL fulfilled;
 
 @property (nonatomic, strong) GCActor *icon, *fulfilledIcon, *unfulfilledIcon;
 
