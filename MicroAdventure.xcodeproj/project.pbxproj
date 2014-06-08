@@ -15,6 +15,10 @@
 		412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */; };
 		412F74881604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */; };
 		412F748A1604F0930064CE1C /* home.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 412F74891604F0930064CE1C /* home.tmx */; };
+		4148EE51188C5A94006EAD73 /* MADialogScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148EE50188C5A94006EAD73 /* MADialogScene.m */; };
+		4148EE52188C5A94006EAD73 /* MADialogScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148EE50188C5A94006EAD73 /* MADialogScene.m */; };
+		4148EE54188C609A006EAD73 /* dialog.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4148EE53188C609A006EAD73 /* dialog.tmx */; };
+		4148EE55188C609A006EAD73 /* dialog.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4148EE53188C609A006EAD73 /* dialog.tmx */; };
 		41515E3816A2B4FB00F0DC46 /* MADesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3716A2B4FB00F0DC46 /* MADesireState.m */; };
 		41515E3916A2B4FB00F0DC46 /* MADesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3716A2B4FB00F0DC46 /* MADesireState.m */; };
 		41515E3C16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3B16A2B51600F0DC46 /* MAUnfulfilledDesireState.m */; };
@@ -79,6 +83,9 @@
 		412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MABowlDesire.m; path = Classes/MABowlDesire.m; sourceTree = "<group>"; };
 		412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rpg indoor tileset expansion 1 trans.png"; path = "MicroAdventure/Resources/rpg indoor tileset expansion 1 trans.png"; sourceTree = "<group>"; };
 		412F74891604F0930064CE1C /* home.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = home.tmx; path = MicroAdventure/Resources/home.tmx; sourceTree = "<group>"; };
+		4148EE4F188C5A94006EAD73 /* MADialogScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADialogScene.h; path = Classes/MADialogScene.h; sourceTree = "<group>"; };
+		4148EE50188C5A94006EAD73 /* MADialogScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADialogScene.m; path = Classes/MADialogScene.m; sourceTree = "<group>"; };
+		4148EE53188C609A006EAD73 /* dialog.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = dialog.tmx; path = MicroAdventure/Resources/dialog.tmx; sourceTree = "<group>"; };
 		41515E3616A2B4FB00F0DC46 /* MADesireState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADesireState.h; path = Classes/MADesireState.h; sourceTree = "<group>"; };
 		41515E3716A2B4FB00F0DC46 /* MADesireState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADesireState.m; path = Classes/MADesireState.m; sourceTree = "<group>"; };
 		41515E3A16A2B51600F0DC46 /* MAUnfulfilledDesireState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAUnfulfilledDesireState.h; path = Classes/MAUnfulfilledDesireState.h; sourceTree = "<group>"; };
@@ -279,6 +286,8 @@
 				5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */,
 				419FBBF718323ACC00EE8A10 /* MAVictoryScene.h */,
 				419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */,
+				4148EE4F188C5A94006EAD73 /* MADialogScene.h */,
+				4148EE50188C5A94006EAD73 /* MADialogScene.m */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -296,6 +305,7 @@
 				41515E4316A2BA9600F0DC46 /* cereal_unfulfilled.png */,
 				4192C769160E12A30042A1FF /* seito.png */,
 				412F74891604F0930064CE1C /* home.tmx */,
+				4148EE53188C609A006EAD73 /* dialog.tmx */,
 				412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */,
 			);
 			name = Resources;
@@ -348,6 +358,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MA;
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Entenwolf Software";
 			};
@@ -375,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F97C04D15F3841800594EF4 /* InfoPlist.strings in Resources */,
+				4148EE54188C609A006EAD73 /* dialog.tmx in Resources */,
 				5F97C05315F3841800594EF4 /* Credits.rtf in Resources */,
 				5F97C05915F3841800594EF4 /* MainMenu.xib in Resources */,
 				412F74881604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png in Resources */,
@@ -397,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */,
+				4148EE55188C609A006EAD73 /* dialog.tmx in Resources */,
 				41ECBB0618685A5700667538 /* splash_victory.png in Resources */,
 				41515E4516A2BA9600F0DC46 /* cereal_fulfilled.png in Resources */,
 				41515E4716A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */,
@@ -437,6 +450,7 @@
 				4127B5A816A1FE8900B54716 /* MADesire.m in Sources */,
 				41515E3816A2B4FB00F0DC46 /* MADesireState.m in Sources */,
 				41515E3C16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */,
+				4148EE51188C5A94006EAD73 /* MADialogScene.m in Sources */,
 				41515E4016A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
 				4118E21B16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
 				412C5A5F16AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
@@ -458,6 +472,7 @@
 				41515E4116A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
 				4118E21C16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
 				412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
+				4148EE52188C5A94006EAD73 /* MADialogScene.m in Sources */,
 				5F15B5AF17771F2D002D79D8 /* MACerealMazeScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

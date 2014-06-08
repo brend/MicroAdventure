@@ -16,6 +16,7 @@
 #import "GCDirector.h"
 #import "MACerealMazeScene.h"
 #import "MAVictoryScene.h"
+#import "MADialogScene.h"
 
 @interface MAMainScene ()
 @property (nonatomic, strong) GCMap *map;
@@ -91,6 +92,10 @@
 
 - (void) update
 {
+    // DEBUG
+    if ([self.keyboard keyPressed: GCKeyboardKeyEnter])
+        [self presentDialogScene];
+    
 	if (!self.seito.isMoving) {
         
         GCVector *offset = nil;
@@ -158,6 +163,13 @@
     MAVictoryScene *v = [[MAVictoryScene alloc] init];
     
     [[GCDirector sharedDirector] pushScene: v];
+}
+
+- (void) presentDialogScene
+{
+    MADialogScene *dialog = [[MADialogScene alloc] init];
+    
+    [[GCDirector sharedDirector] pushScene: dialog];
 }
 
 @end
