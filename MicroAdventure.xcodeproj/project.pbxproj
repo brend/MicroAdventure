@@ -8,43 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4118E21B16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4118E21A16AC37FC00BDFCE5 /* MACerealDesire.m */; };
-		4118E21C16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4118E21A16AC37FC00BDFCE5 /* MACerealDesire.m */; };
 		4127B5A816A1FE8900B54716 /* MADesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4127B5A716A1FE8900B54716 /* MADesire.m */; };
-		4127B5A916A1FE8900B54716 /* MADesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4127B5A716A1FE8900B54716 /* MADesire.m */; };
 		412C5A5F16AC5FDB00FE1CCE /* MABowlDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */; };
-		412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */ = {isa = PBXBuildFile; fileRef = 412C5A5E16AC5FDB00FE1CCE /* MABowlDesire.m */; };
 		412F74881604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png in Resources */ = {isa = PBXBuildFile; fileRef = 412F74871604F01E0064CE1C /* rpg indoor tileset expansion 1 trans.png */; };
 		412F748A1604F0930064CE1C /* home.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 412F74891604F0930064CE1C /* home.tmx */; };
 		4148EE51188C5A94006EAD73 /* MADialogScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148EE50188C5A94006EAD73 /* MADialogScene.m */; };
-		4148EE52188C5A94006EAD73 /* MADialogScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148EE50188C5A94006EAD73 /* MADialogScene.m */; };
 		4148EE54188C609A006EAD73 /* dialog.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4148EE53188C609A006EAD73 /* dialog.tmx */; };
-		4148EE55188C609A006EAD73 /* dialog.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4148EE53188C609A006EAD73 /* dialog.tmx */; };
 		41515E3816A2B4FB00F0DC46 /* MADesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3716A2B4FB00F0DC46 /* MADesireState.m */; };
-		41515E3916A2B4FB00F0DC46 /* MADesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3716A2B4FB00F0DC46 /* MADesireState.m */; };
 		41515E3C16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3B16A2B51600F0DC46 /* MAUnfulfilledDesireState.m */; };
-		41515E3D16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3B16A2B51600F0DC46 /* MAUnfulfilledDesireState.m */; };
 		41515E4016A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3F16A2B52700F0DC46 /* MAFullfilledDesireState.m */; };
-		41515E4116A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */ = {isa = PBXBuildFile; fileRef = 41515E3F16A2B52700F0DC46 /* MAFullfilledDesireState.m */; };
 		41515E4416A2BA9600F0DC46 /* cereal_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41515E4216A2BA9600F0DC46 /* cereal_fulfilled.png */; };
-		41515E4516A2BA9600F0DC46 /* cereal_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41515E4216A2BA9600F0DC46 /* cereal_fulfilled.png */; };
 		41515E4616A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41515E4316A2BA9600F0DC46 /* cereal_unfulfilled.png */; };
-		41515E4716A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41515E4316A2BA9600F0DC46 /* cereal_unfulfilled.png */; };
 		4192C76A160E12A30042A1FF /* seito.png in Resources */ = {isa = PBXBuildFile; fileRef = 4192C769160E12A30042A1FF /* seito.png */; };
 		4192C76F160E135F0042A1FF /* MASeito.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C76E160E135F0042A1FF /* MASeito.m */; };
-		4192C770160E135F0042A1FF /* MASeito.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C76E160E135F0042A1FF /* MASeito.m */; };
 		419FBBF918323ACC00EE8A10 /* MAVictoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */; };
-		419FBBFA18323ACC00EE8A10 /* MAVictoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FBBF818323ACC00EE8A10 /* MAVictoryScene.m */; };
 		41EA557C16A2E94700AE84D5 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EA557B16A2E94700AE84D5 /* frame.png */; };
 		41ECBB0518685A5700667538 /* splash_victory.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBB0418685A5700667538 /* splash_victory.png */; };
-		41ECBB0618685A5700667538 /* splash_victory.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBB0418685A5700667538 /* splash_victory.png */; };
 		41FBFC7D16AC11A60083A567 /* bowl_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */; };
-		41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7B16AC11A60083A567 /* bowl_fulfilled.png */; };
 		41FBFC7F16AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
-		41FBFC8016AC11A60083A567 /* bowl_unfulfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FBFC7C16AC11A60083A567 /* bowl_unfulfilled.png */; };
 		5F15B5AE17771F2D002D79D8 /* MACerealMazeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */; };
-		5F15B5AF17771F2D002D79D8 /* MACerealMazeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15B5AD17771F2D002D79D8 /* MACerealMazeScene.m */; };
 		5F15B5B317802BAB002D79D8 /* puzzle_maze.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F15B5B217802BAB002D79D8 /* puzzle_maze.png */; };
-		5F15B5B417802BAB002D79D8 /* puzzle_maze.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F15B5B217802BAB002D79D8 /* puzzle_maze.png */; };
 		5F1DF98A172D3EEF00933BA5 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F1DF989172D3EEF00933BA5 /* AppIcon.icns */; };
 		5F3AD4B81794018500577C09 /* puzzle_maze_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AD4B71794018500577C09 /* puzzle_maze_marker.png */; };
 		5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
@@ -53,26 +36,11 @@
 		5F97C05315F3841800594EF4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C05115F3841800594EF4 /* Credits.rtf */; };
 		5F97C05615F3841800594EF4 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C05515F3841800594EF4 /* MAAppDelegate.m */; };
 		5F97C05915F3841800594EF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C05715F3841800594EF4 /* MainMenu.xib */; };
-		5F97C06115F3841900594EF4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C06015F3841900594EF4 /* SenTestingKit.framework */; };
-		5F97C06215F3841900594EF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C04215F3841800594EF4 /* Cocoa.framework */; };
-		5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F97C06815F3841900594EF4 /* InfoPlist.strings */; };
-		5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */; };
 		5F97C09B15F3897E00594EF4 /* MAMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C09A15F3897E00594EF4 /* MAMainScene.m */; };
-		5F97C09C15F3897E00594EF4 /* MAMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F97C09A15F3897E00594EF4 /* MAMainScene.m */; };
 		5F97C09E15F389AF00594EF4 /* libGunCase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C09D15F389AF00594EF4 /* libGunCase.a */; };
 		5F97C0A115F389E300594EF4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C09F15F389E300594EF4 /* GLUT.framework */; };
 		5F97C0A215F389E300594EF4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97C0A015F389E300594EF4 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5F97C06315F3841900594EF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F97C03515F3841800594EF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F97C03D15F3841800594EF4;
-			remoteInfo = MicroAdventure;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4118E21916AC37FC00BDFCE5 /* MACerealDesire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACerealDesire.h; path = Classes/MACerealDesire.h; sourceTree = "<group>"; };
@@ -122,12 +90,7 @@
 		5F97C05415F3841800594EF4 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
 		5F97C05515F3841800594EF4 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
 		5F97C05815F3841800594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5F97C05F15F3841900594EF4 /* MicroAdventureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroAdventureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F97C06015F3841900594EF4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5F97C06715F3841900594EF4 /* MicroAdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicroAdventureTests-Info.plist"; sourceTree = "<group>"; };
-		5F97C06915F3841900594EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5F97C06B15F3841900594EF4 /* MicroAdventureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroAdventureTests.h; sourceTree = "<group>"; };
-		5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicroAdventureTests.m; sourceTree = "<group>"; };
 		5F97C09915F3897E00594EF4 /* MAMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAMainScene.h; path = Classes/MAMainScene.h; sourceTree = "<group>"; };
 		5F97C09A15F3897E00594EF4 /* MAMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAMainScene.m; path = Classes/MAMainScene.m; sourceTree = "<group>"; };
 		5F97C09D15F389AF00594EF4 /* libGunCase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGunCase.a; path = ../GunCase/build/Release/libGunCase.a; sourceTree = "<group>"; };
@@ -144,15 +107,6 @@
 				5F97C0A215F389E300594EF4 /* OpenGL.framework in Frameworks */,
 				5F97C09E15F389AF00594EF4 /* libGunCase.a in Frameworks */,
 				5F97C04315F3841800594EF4 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F97C05B15F3841900594EF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F97C06115F3841900594EF4 /* SenTestingKit.framework in Frameworks */,
-				5F97C06215F3841900594EF4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +146,6 @@
 			children = (
 				5F1DF989172D3EEF00933BA5 /* AppIcon.icns */,
 				5F97C04815F3841800594EF4 /* MicroAdventure */,
-				5F97C06515F3841900594EF4 /* MicroAdventureTests */,
 				5F97C04115F3841800594EF4 /* Frameworks */,
 				5F97C03F15F3841800594EF4 /* Products */,
 			);
@@ -202,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				5F97C03E15F3841800594EF4 /* MicroAdventure.app */,
-				5F97C05F15F3841900594EF4 /* MicroAdventureTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,25 +206,6 @@
 				5F97C04E15F3841800594EF4 /* main.m */,
 				5F97C05015F3841800594EF4 /* MicroAdventure-Prefix.pch */,
 				5F97C05115F3841800594EF4 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5F97C06515F3841900594EF4 /* MicroAdventureTests */ = {
-			isa = PBXGroup;
-			children = (
-				5F97C06B15F3841900594EF4 /* MicroAdventureTests.h */,
-				5F97C06C15F3841900594EF4 /* MicroAdventureTests.m */,
-				5F97C06615F3841900594EF4 /* Supporting Files */,
-			);
-			path = MicroAdventureTests;
-			sourceTree = "<group>";
-		};
-		5F97C06615F3841900594EF4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F97C06715F3841900594EF4 /* MicroAdventureTests-Info.plist */,
-				5F97C06815F3841900594EF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -332,25 +265,6 @@
 			productReference = 5F97C03E15F3841800594EF4 /* MicroAdventure.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F97C05E15F3841900594EF4 /* MicroAdventureTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F97C07315F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventureTests" */;
-			buildPhases = (
-				5F97C05A15F3841900594EF4 /* Sources */,
-				5F97C05B15F3841900594EF4 /* Frameworks */,
-				5F97C05C15F3841900594EF4 /* Resources */,
-				5F97C05D15F3841900594EF4 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F97C06415F3841900594EF4 /* PBXTargetDependency */,
-			);
-			name = MicroAdventureTests;
-			productName = MicroAdventureTests;
-			productReference = 5F97C05F15F3841900594EF4 /* MicroAdventureTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -375,7 +289,6 @@
 			projectRoot = "";
 			targets = (
 				5F97C03D15F3841800594EF4 /* MicroAdventure */,
-				5F97C05E15F3841900594EF4 /* MicroAdventureTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,38 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F97C05C15F3841900594EF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F97C06A15F3841900594EF4 /* InfoPlist.strings in Resources */,
-				4148EE55188C609A006EAD73 /* dialog.tmx in Resources */,
-				41ECBB0618685A5700667538 /* splash_victory.png in Resources */,
-				41515E4516A2BA9600F0DC46 /* cereal_fulfilled.png in Resources */,
-				41515E4716A2BA9600F0DC46 /* cereal_unfulfilled.png in Resources */,
-				41FBFC7E16AC11A60083A567 /* bowl_fulfilled.png in Resources */,
-				41FBFC8016AC11A60083A567 /* bowl_unfulfilled.png in Resources */,
-				5F15B5B417802BAB002D79D8 /* puzzle_maze.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5F97C05D15F3841900594EF4 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F97C03A15F3841800594EF4 /* Sources */ = {
@@ -458,34 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F97C05A15F3841900594EF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F97C06D15F3841900594EF4 /* MicroAdventureTests.m in Sources */,
-				5F97C09C15F3897E00594EF4 /* MAMainScene.m in Sources */,
-				4192C770160E135F0042A1FF /* MASeito.m in Sources */,
-				419FBBFA18323ACC00EE8A10 /* MAVictoryScene.m in Sources */,
-				4127B5A916A1FE8900B54716 /* MADesire.m in Sources */,
-				41515E3916A2B4FB00F0DC46 /* MADesireState.m in Sources */,
-				41515E3D16A2B51600F0DC46 /* MAUnfulfilledDesireState.m in Sources */,
-				41515E4116A2B52700F0DC46 /* MAFullfilledDesireState.m in Sources */,
-				4118E21C16AC37FC00BDFCE5 /* MACerealDesire.m in Sources */,
-				412C5A6016AC5FDB00FE1CCE /* MABowlDesire.m in Sources */,
-				4148EE52188C5A94006EAD73 /* MADialogScene.m in Sources */,
-				5F15B5AF17771F2D002D79D8 /* MACerealMazeScene.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5F97C06415F3841900594EF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F97C03D15F3841800594EF4 /* MicroAdventure */;
-			targetProxy = 5F97C06315F3841900594EF4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5F97C04B15F3841800594EF4 /* InfoPlist.strings */ = {
@@ -512,21 +367,13 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		5F97C06815F3841900594EF4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F97C06915F3841900594EF4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F97C06E15F3841900594EF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -547,13 +394,14 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR\"/** \"/Users/rumpus/code/GunCase\"/**";
 			};
 			name = Debug;
 		};
 		5F97C06F15F3841900594EF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -567,6 +415,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$PROJECT_DIR\"/** \"/Users/rumpus/code/GunCase\"/**";
 			};
 			name = Release;
 		};
@@ -598,36 +447,6 @@
 			};
 			name = Release;
 		};
-		5F97C07415F3841900594EF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MicroAdventure.app/Contents/MacOS/MicroAdventure";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
-				INFOPLIST_FILE = "MicroAdventureTests/MicroAdventureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5F97C07515F3841900594EF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MicroAdventure.app/Contents/MacOS/MicroAdventure";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MicroAdventure/MicroAdventure-Prefix.pch";
-				INFOPLIST_FILE = "MicroAdventureTests/MicroAdventureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -645,15 +464,6 @@
 			buildConfigurations = (
 				5F97C07115F3841900594EF4 /* Debug */,
 				5F97C07215F3841900594EF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F97C07315F3841900594EF4 /* Build configuration list for PBXNativeTarget "MicroAdventureTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F97C07415F3841900594EF4 /* Debug */,
-				5F97C07515F3841900594EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
